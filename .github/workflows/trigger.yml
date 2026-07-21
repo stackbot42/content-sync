@@ -14,7 +14,7 @@ jobs:
       - name: Checkout private repo
         uses: actions/checkout@v4
         with:
-          repository: YOUR_GITHUB_USERNAME/content-pipeline
+          repository: stackbot42/content-pipeline
           token: ${{ secrets.PIPELINE_TOKEN }}
 
       - uses: actions/setup-node@v4
